@@ -7,6 +7,10 @@ app.factory('team', function() {
         },
         setTeams: function(data){
         	teams = data;
+        },
+        resetTeam: function(){
+        	team = {};
         }
     };
+
 });

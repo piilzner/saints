@@ -6,15 +6,16 @@ ion-nav-view .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #282828; }
+  background-image: url("../img/bg.jpg");
+  background-size: cover; }
   ion-nav-view .content-wrapper .logo {
     width: 100%;
-    margin: 20px 0 30px;
+    margin: 20px 0 20px;
     display: flex;
     justify-content: center; }
     ion-nav-view .content-wrapper .logo img {
-      width: 120px;
-      height: 120px; }
+      width: 100px;
+      height: 100px; }
   ion-nav-view .content-wrapper .list-wrapper {
     width: 100%;
     height: 100%;
@@ -22,8 +23,8 @@ ion-nav-view .content-wrapper {
     ion-nav-view .content-wrapper .list-wrapper .player-list {
       width: 100%;
       padding: 5px;
-      margin-bottom: 4px;
-      background: #3f3f3f;
+      margin-bottom: 2px;
+      background: #1c1c1c;
       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
       display: flex;
       justify-content: space-between; }
@@ -53,10 +54,11 @@ ion-nav-view .content-wrapper {
 .team-wrapper {
   width: 100%;
   height: 100%;
-  background: #282828; }
+  background-image: url("../img/bg.jpg");
+  background-size: cover; }
   .team-wrapper .team-colors {
     width: 100%;
-    height: 60px;
+    height: 100px;
     background: pink;
     margin-top: 20px;
     display: flex;
@@ -88,13 +90,14 @@ ion-nav-view .content-wrapper {
     height: auto;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    overflow: scroll; }
     .team-wrapper .player-list-wrapper .blue-wrapper, .team-wrapper .player-list-wrapper .white-wrapper {
       width: 49%; }
       .team-wrapper .player-list-wrapper .blue-wrapper .box-style, .team-wrapper .player-list-wrapper .white-wrapper .box-style {
         width: 100%;
         height: 60px;
-        background: #3f3f3f;
+        background: #1c1c1c;
         font-family: "Roboto";
         font-weight: 300;
         font-size: 16px;

@@ -18,7 +18,12 @@ var app = angular.module('starter', ['ionic'])
   .state('home', {
     url: '/',
     templateUrl: 'views/home.html',
-    controller: 'homeCtrl'
+    controller: 'homeCtrl',
+    resolve: { 
+      reset: function(team){
+        team.resetTeam();
+      }
+    }
   })
   .state('team', {
     url: '/team',
