@@ -1,0 +1,17 @@
+<div class="content-wrapper">
+
+  <div class="logo"><img src="img/logo.png" alt=""></div>
+
+  <div class="list-wrapper">
+
+    <div ng-repeat="player in players | orderBy:'name'" class="player-list">
+      <div class="player-name">
+        {{player.name}}
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" value="{{ player.name }}" class="attending">
+      </div>
+    </div>
+  </div>
+  <div ng-click="generate()" class="finished-btn">generera lag</div>
+</div>

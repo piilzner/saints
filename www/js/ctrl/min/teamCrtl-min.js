@@ -1,0 +1,1 @@
+app.controller("teamCrtl",["$scope",function(o){}]);

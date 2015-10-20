@@ -1,0 +1,1 @@
+app.controller("teamCtrl",["$scope","team",function(e,t){e.blueTeam=t.getTeams().blue,e.whiteTeam=t.getTeams().white,console.log(e.blueTeam)}]);

@@ -1,0 +1,1 @@
+app.factory("team",function(){var t={};return{getTeams:function(){return t},setTeams:function(n){t=n}}});
