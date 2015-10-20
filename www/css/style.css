@@ -87,7 +87,7 @@ ion-nav-view .content-wrapper {
       color: #334871; }
   .team-wrapper .player-list-wrapper {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
