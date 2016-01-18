@@ -51,7 +51,7 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
    }
 
    function createTeams(){
-    
+    team.resetTeam();
     var one = Math.floor(Math.random()*$scope.rankOne.length),
         two = Math.floor(Math.random()*$scope.rankTwo.length),
         three = Math.floor(Math.random()*$scope.rankThree.length);
@@ -74,6 +74,10 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
     blue = !blue;
     if($scope.rankOne.length == 0 && $scope.rankTwo.length == 0 && $scope.rankThree.length == 0){
       console.log("Blue : ", blueTeam.filter(Boolean), "white: ",whiteTeam.filter(Boolean));
+      if(blueTeam.length > whiteTeam.length +1){
+        whiteTeam.push(blueTeam[blueTeam.length]);
+        blueTeam.splice(blueTeam.length, 1);
+      }
       team.setTeams({"blue": blueTeam.filter(Boolean), "white": whiteTeam.filter(Boolean)});
       $state.transitionTo("team");
     }

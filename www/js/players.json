@@ -7,6 +7,10 @@
 	"name":"Adam Norrman",
 	"rating":"2"	
 	},
+    {
+	"name":"Admir Muhic",
+	"rating":"1"	
+	},
 	{
 	"name":"Andreas Andersson",
 	"rating":"3"	
@@ -42,6 +46,10 @@
 	{
 	"name":"Erik Sibbesson",
 	"rating":"1"	
+	},
+    {
+	"name":"Filip Book",
+	"rating":"2"	
 	},
 	{
 	"name":"Henrik Henriksson",
@@ -79,9 +87,17 @@
 	"name":"Johan Rydberg",
 	"rating":"2"	
 	},
+    {
+	"name":"Jonas Holmström",
+	"rating":"2"	
+	},
 	{
 	"name":"Jonas Kieninger",
 	"rating":"3"	
+	},
+    {
+	"name":"Lowe Kauppinen",
+	"rating":"2"	
 	},
 	{
 	"name":"Emil Göstasson",
@@ -150,6 +166,10 @@
 	{
 	"name":"Oskar Henmyr",
 	"rating":"2"	
+	},
+    {
+	"name":"Oskar Niemelä",
+	"rating":"1"	
 	},
 	{
 	"name":"Patrik Karlsson",

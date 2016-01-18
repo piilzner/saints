@@ -9,7 +9,7 @@ app.factory('team', function() {
         	teams = data;
         },
         resetTeam: function(){
-        	team = {};
+        	teams = {};
         }
     };
 
