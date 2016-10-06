@@ -1,19 +1,23 @@
 [
 	{
 	"name":"Andreas Sjödin",
-	"rating":"2"	
+	"rating":"1"	
 	},
 	{
 	"name":"Adam Norrman",
-	"rating":"2"	
+	"rating":"3"	
 	},
     {
 	"name":"Admir Muhic",
 	"rating":"1"	
 	},
+    {
+	"name":"André Jönsson",
+	"rating":"3"	
+	},
 	{
 	"name":"Andreas Andersson",
-	"rating":"3"	
+	"rating":"2"	
 	},
 	{
 	"name":"Alex Håkansson",
@@ -21,10 +25,10 @@
 	},
 	{
 	"name":"Ante Andersson",
-	"rating":"3"	
+	"rating":"2"	
 	},
 	{
-	"name":"Björn Winberg",
+	"name":"Björn Winberg Ⓒ",
 	"rating":"3"	
 	},
 	{
@@ -35,9 +39,13 @@
 	"name":"David Maizman",
 	"rating":"1"	
 	},
+    {
+	"name":"Daniel Kjelsson",
+	"rating":"3"	
+	},
 	{
 	"name":"Dennis Lesonen",
-	"rating":"3"	
+	"rating":"2"	
 	},
 	{
 	"name":"Erik Gustavsson",
@@ -49,7 +57,7 @@
 	},
     {
 	"name":"Filip Book",
-	"rating":"2"	
+	"rating":"3"	
 	},
 	{
 	"name":"Henrik Henriksson",
@@ -65,15 +73,15 @@
 	},
 	{
 	"name":"Joakim Alexandersson",
-	"rating":"3"	
+	"rating":"2"	
 	},
 	{
 	"name":"Jocke Hultman",
-	"rating":"1"	
+	"rating":"2"	
 	},
 	{
-	"name":"Jocke Lindgren",
-	"rating":"1"	
+	"name":"Jocke Lindgren ⚜",
+	"rating":"2"	
 	},
 	{
 	"name":"Johan Görnebrand",
@@ -81,11 +89,15 @@
 	},
 	{
 	"name":"Johan Lundqvist",
-	"rating":"2"	
+	"rating":"3"	
 	},
 	{
 	"name":"Johan Rydberg",
 	"rating":"2"	
+	},
+    {
+	"name":"Johan Seydlitz",
+	"rating":"3"	
 	},
     {
 	"name":"Jonas Holmström",
@@ -141,14 +153,14 @@
 	},
 	{
 	"name":"Morgan Evaldsson",
-	"rating":"3"	
-	},
-	{
-	"name":"Niklas Lennartsson",
 	"rating":"2"	
 	},
 	{
-	"name":"Nils Löfgren",
+	"name":"Niklas Lennartsson",
+	"rating":"1"	
+	},
+	{
+	"name":"Nils Löfgren ♕",
 	"rating":"3"	
 	},
 	{
@@ -157,7 +169,7 @@
 	},
 	{
 	"name":"Ola Thornell",
-	"rating":"3"	
+	"rating":"2"	
 	},
 	{
 	"name":"Oliver Söderberg",
@@ -204,7 +216,7 @@
 	"rating":"3"	
 	},
 	{
-	"name":"Sebastian Ramberg",
+	"name":"Sebastian Ramberg ⚜",
 	"rating":"2"	
 	},
 	{
@@ -220,8 +232,8 @@
 	"rating":"3"	
 	},
 	{
-	"name":"Tomi Goman",
-	"rating":"1"	
+	"name":"Markus Kärregård",
+	"rating":"2"	
 	},
 	{
 	"name":"Tommy Kuduk",
