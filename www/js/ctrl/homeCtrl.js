@@ -8,9 +8,21 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
 
    });
 
-    
 
+
+    $scope.intro = new Audio('/img/WeAreTheSaints.mp3');      // Music on pageLoad
     
+    $scope.isPlaying = false;
+    
+    $scope.togglePlay = function(){
+        if ($scope.isPlaying == true) {
+            $scope.intro.pause();
+            $scope.isPlaying = false;
+        } else {
+            $scope.isPlaying = true;
+            $scope.intro.play();
+        }
+    }
 
 
   $scope.rankOne = [];
