@@ -8,6 +8,10 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
 
    });
 
+    
+
+    
+
 
   $scope.rankOne = [];
   $scope.rankTwo = [];
