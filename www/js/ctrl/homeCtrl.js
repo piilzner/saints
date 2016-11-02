@@ -14,13 +14,19 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
     
     $scope.isPlaying = false;
     
+     $scope.element = document.getElementById("logotype");
+    
+    
     $scope.togglePlay = function(){
         if ($scope.isPlaying == true) {
             $scope.intro.pause();
             $scope.isPlaying = false;
+            $scope.element.classList.remove("bounce");
         } else {
             $scope.isPlaying = true;
             $scope.intro.play();
+            $scope.element.classList.add("bounce");
+            
         }
     }
 

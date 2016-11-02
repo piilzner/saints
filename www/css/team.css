@@ -1,0 +1,76 @@
+.team-wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg.jpg");
+  background-size: cover; }
+  .team-wrapper .team-colors {
+    width: 100%;
+    height: 100px;
+    background: pink;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .team-wrapper .team-colors p {
+      margin: 0;
+      padding: 0; }
+    .team-wrapper .team-colors .color {
+      width: 50%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 0 20px;
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 22px;
+      text-transform: capitalize; }
+    .team-wrapper .team-colors .blue {
+      background-image: url("../img/blue.png");
+      background-size: cover;
+      color: white; }
+    .team-wrapper .team-colors .white {
+      background-image: url("../img/white.png");
+      background-size: cover;
+      color: #334871; }
+  .team-wrapper .player-list-wrapper {
+    position: absolute;
+    top: 105px;
+    width: 100%;
+    height: calc(100% - 110px);
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: scroll; }
+    .team-wrapper .player-list-wrapper .blue-wrapper, .team-wrapper .player-list-wrapper .white-wrapper {
+      width: 49%; }
+      .team-wrapper .player-list-wrapper .blue-wrapper .box-style, .team-wrapper .player-list-wrapper .white-wrapper .box-style {
+        width: 100%;
+        height: 60px;
+        background: #1c1c1c;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 16px;
+        color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 2px; }
