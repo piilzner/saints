@@ -1,19 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+.bounce {
+  -webkit-animation: bounce 1.2s infinite;
+          animation: bounce 1.2s infinite; }
+
 ion-nav-view .content-wrapper {
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-image: url("../img/bg.jpg");
   background-size: cover; }
   ion-nav-view .content-wrapper .logo {
     width: 100%;
-    margin: 20px 0 20px;
-    padding: 0 0 30px 0;
+      width-margin: 20px 0;
+      width-padding: 0 0 30px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     ion-nav-view .content-wrapper .logo img {
       width: 100px;
       height: 100px; }
@@ -27,26 +65,42 @@ ion-nav-view .content-wrapper {
       margin-bottom: 2px;
       background: #1c1c1c;
       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: space-between; }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       ion-nav-view .content-wrapper .list-wrapper .player-list .player-name {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-left: 5px;
         color: white;
-        font-family: "Roboto";
+        font-family: 'Roboto';
         font-weight: 300;
         font-size: 16px; }
   ion-nav-view .content-wrapper .finished-btn {
     margin: 20px;
     width: 50%;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #387EF5;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
@@ -61,19 +115,29 @@ ion-nav-view .content-wrapper {
     width: 100%;
     height: 100px;
     background: pink;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .team-wrapper .team-colors p {
       margin: 0;
       padding: 0; }
     .team-wrapper .team-colors .color {
       width: 50%;
       height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       padding: 0 20px;
-      font-family: "Roboto";
+      font-family: 'Roboto';
       font-weight: 300;
       font-size: 22px;
       text-transform: capitalize; }
@@ -91,8 +155,12 @@ ion-nav-view .content-wrapper {
     width: 100%;
     height: calc(100% - 110px);
     margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     overflow: scroll; }
     .team-wrapper .player-list-wrapper .blue-wrapper, .team-wrapper .player-list-wrapper .white-wrapper {
       width: 49%; }
@@ -100,11 +168,17 @@ ion-nav-view .content-wrapper {
         width: 100%;
         height: 60px;
         background: #1c1c1c;
-        font-family: "Roboto";
+        font-family: 'Roboto';
         font-weight: 300;
         font-size: 16px;
         color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 2px; }

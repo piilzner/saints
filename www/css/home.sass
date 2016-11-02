@@ -1,3 +1,5 @@
+
+
 ion-nav-view 
 	
 
@@ -12,19 +14,19 @@ ion-nav-view
 		background: 
 			image: url('../img/bg.jpg')
 			size: cover
-			// color: #282828
-
-
+            
 		.logo
 			width: 100%
-			margin: 20px 0 20px
+            margin: 20px 0
             padding: 0 0 30px 0
 			display: flex
 			justify-content: center
+            
 
 			img 
 				width: 100px
 				height: 100px
+                
 
 
 		.list-wrapper
@@ -40,7 +42,7 @@ ion-nav-view
 				margin-bottom: 2px
 				background: #1c1c1c
 				border-bottom: 1px solid rgba(0,0,0,0.3)
-				display: flex 
+				display: flex
 				justify-content: space-between
 
 
@@ -50,7 +52,10 @@ ion-nav-view
 					align-items: center
 					margin-left: 5px
 					color: white
-					+text(16px)
+					font: 
+                        family: 'Roboto' 
+                        weight: 300
+                        size: 16px
 
 		.finished-btn
 			margin: 20px
@@ -60,7 +65,10 @@ ion-nav-view
 			justify-content: center
 			align-items: center
 			background: #387EF5
-			+text(14px)
+			font: 
+                family: 'Roboto' 
+                weight: 300
+                size: 14px
 			text-transform: uppercase
 			padding: 10px
 

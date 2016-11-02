@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500)
 
-@mixin text($size)
-	font: 
-		family: 'Roboto' 
-		weight: 300
-		size: $size
+
+@keyframes bounce
+  0%
+    transform: scale(.9)
+  50%
+    transform: scale(1.1)
+  100%
+    transform: scale(1)
 
 
-@import 'home'
-@import 'team'
+.bounce
+    animation: bounce 1.2s infinite
+
+@import 'home.sass'
+@import 'team.sass'
 
  
