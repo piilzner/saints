@@ -35,7 +35,7 @@ ion-nav-view .content-wrapper {
     overflow: scroll; }
     ion-nav-view .content-wrapper .list-wrapper .player-list {
       width: 100%;
-      padding: 15px 5px;
+      padding: 5px;
       margin-bottom: 2px;
       background: #1c1c1c;
       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
