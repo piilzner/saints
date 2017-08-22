@@ -1,5 +1,5 @@
 app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scope, $http, $state, team) {
- 
+
    $http.get('js/players.json').then(function(data){
 
     console.log(data);
@@ -11,12 +11,14 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
 
 
     $scope.intro = new Audio('/img/WeAreTheSaints.mp3');      // Music on pageLoad
-    
+
     $scope.isPlaying = false;
-    
+
      $scope.element = document.getElementById("logotype");
-    
-    
+
+     $scope.playerList = $scope.players.length;
+
+
     $scope.togglePlay = function(){
         if ($scope.isPlaying == true) {
             $scope.intro.pause();
@@ -26,7 +28,7 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
             $scope.isPlaying = true;
             $scope.intro.play();
             $scope.element.classList.add("bounce");
-            
+
         }
     }
 
@@ -67,7 +69,7 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
             }
           }
         }
-      }      
+      }
     }
       createTeams();
    }
@@ -105,6 +107,5 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
     }
     else createTeams();
    }
-    
-}]);
 
+}]);

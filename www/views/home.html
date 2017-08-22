@@ -1,7 +1,7 @@
 <div class="content-wrapper">
 
   <div class="logo" style="padding: 10px 0 40px 0"><img id="logotype" ng-click="togglePlay()" src="img/logo.png" alt=""></div>
-
+  <p>{{playerList}} spelare</p>
   <div class="list-wrapper">
 
     <div ng-repeat="player in players | orderBy:'name'" class="player-list">
