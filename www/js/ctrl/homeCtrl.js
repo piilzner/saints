@@ -16,8 +16,6 @@ app.controller('homeCtrl', ['$scope', '$http', '$state', 'team', function ($scop
 
      $scope.element = document.getElementById("logotype");
 
-     $scope.playerList = $scope.players.length;
-
 
     $scope.togglePlay = function(){
         if ($scope.isPlaying == true) {
