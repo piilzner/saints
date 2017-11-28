@@ -1,230 +1,234 @@
-[   
-    {
-        "name": "Admir Muhic",
-        "rating": "1"
-    },
-    {
-        "name": "Andreas Sjödin",
-        "rating": "1"
-    },
-    {
-        "name": "David Andersson",
-        "rating": "1"
-    },
-    {
-        "name": "Emil Göstasson",
-        "rating": "1"
-    },
-    {
-        "name": "Henrik Henriksson",
-        "rating": "1"
-    },
-    {
-        "name": "Jan Štěpán",
-        "rating": "1"
-    },
-    {
-        "name": "Jocke Hultman",
-        "rating": "1"
-    },
-    {
-        "name": "Jocke Lindgren ⚜",
-        "rating": "1"
-    },
-    {
-        "name": "Juha Laurila",
-        "rating": "1"
-    },
-    {
-        "name": "Mikael Dahlgren",
-        "rating": "1"
-    },
-    {
-        "name": "Niklas Lennartsson",
-        "rating": "1"
-    },
-    {
-        "name": "Sebbe Ramberg ⚜",
-        "rating": "1"
-    },
-    {
-        "name": "Victor Winberg",
-        "rating": "1"
-    },
-     {
-        "name": "Adam Norrman",
-        "rating": "2"
-     },
-     {
-        "name": "Andreas Andersson",
-        "rating": "2"
-     },
-     {
-        "name": "Ante Andersson",
-        "rating": "2"
-     },
-     {
-        "name": "Cliff Olsson",
-        "rating": "2"
-     },
-     {
-        "name": "Dennis Lesonen",
-        "rating": "2"
-     },
-     {
-        "name": "Erik Gustavsson",
-        "rating": "2"
-     },
-     {
-        "name": "Erik Sibbesson",
-        "rating": "2"
-     },
-     {
-        "name": "Fabian Björklund",
-        "rating": "2"
-     },
-     {
-        "name": "Filip Ancker-Book",
-        "rating": "2"
-     },
-     {
-        "name": "Jarno Koskela",
-        "rating": "2"
-     },
-     {
-        "name": "Joakim Alexandersson",
-        "rating": "2"
-     },
-     {
-        "name": "Johan Lundqvist",
-        "rating": "2"
-     },
-     {
-        "name": "Johan Rydberg",
-        "rating": "2"
-     },
-     {
-        "name": "Jonas Holmström",
-        "rating": "2"
-     },
-     {
-        "name": "Lucién Holmén",
-        "rating": "2"
-     },
-     {
-        "name": "Markus Kärregård",
-        "rating": "2"
-     },
-     {
-        "name": "Mattias Torikka",
-        "rating": "2"
-     },
-     {
-        "name": "Matts Byström",
-        "rating": "2"
-     },
-     {
-        "name": "Michael Torikka",
-        "rating": "2"
-     },
-     {
-        "name": "Mika Goman",
-        "rating": "2"
-     },
-     {
-        "name": "Morgan Evaldsson",
-        "rating": "2"
-     },
-     {
-        "name": "Ola Thornell",
-        "rating": "2"
-     },
-     {
-        "name": "Oskar Henmyr",
-        "rating": "2"
-     },
-     {
-        "name": "Patrik Karlsson",
-        "rating": "2"
-     },
-     {
-        "name": "Simon Book",
-        "rating": "2"
-     },
-     {
-        "name": "Tommy Kuduk",
-        "rating": "2"
-      },
-     {
-        "name": "André Jönsson",
-        "rating": "3"
-     },
-     {
-        "name": "Björn Winberg",
-        "rating": "3"
-     },
-     {
-        "name": "Daniel Kjellsson",
-        "rating": "3"
-     },
-     {
-        "name": "Jesper Andersson",
-        "rating": "3"
-     },
-     {
-        "name": "Johan Görnebrand",
-        "rating": "3"
-     },
-     {
-        "name": "Johan Seydlitz",
-        "rating": "3"
-     },
-     {
-        "name": "Jonas Kieninger",
-        "rating": "3"
-     },
-     {
-        "name": "Mathias Olofsson",
-        "rating": "3"
-     },
-     {
-        "name": "Nisse Löfgren ☆",
-        "rating": "3"
-     },
-     {
-        "name": "Oliver Söderberg",
-        "rating": "3"
-     },
-     {
-        "name": "Paul Winberg",
-        "rating": "3"
-     },
-     {
-        "name": "Per Görnebrand",
-        "rating": "3"
-     },
-     {
-        "name": "Peter Grönvall",
-        "rating": "3"
-     },
-     {
-        "name": "Rasmus Persson",
-        "rating": "3"
-     },
-     {
-        "name": "Robin Rolandsson",
-        "rating": "3"
-     },
-     {
-        "name": "Roger Jönsson",
-        "rating": "3"
-     },
-     {
-        "name": "Simon Laakkonen",
-        "rating": "3"
-     },
-     {
-        "name": "Tony Skoog",
-        "rating": "3"
-     }
+[
+ {
+   "name": "Adam Norrman",
+   "rating": "3"
+ },
+ {
+   "name": "Admir Muhic",
+   "rating": "1"
+ },
+ {
+   "name": "André Jönsson",
+   "rating": "3"
+ },
+ {
+   "name": "Andreas Kjellsson",
+   "rating": "1"
+ },
+ {
+   "name": "Ante Andersson",
+   "rating": "2"
+ },
+ {
+   "name": "Benoit Douce",
+   "rating": "3"
+ },
+ {
+   "name": "Björn Winberg",
+   "rating": "3"
+ },
+ {
+   "name": "Cliff Olsson",
+   "rating": "2"
+ },
+ {
+   "name": "Daniel Kjellsson",
+   "rating": "3"
+ },
+ {
+   "name": "Dennis Lesonen",
+   "rating": "3"
+ },
+ {
+   "name": "Douglas Lesonen",
+   "rating": "1"
+ },
+ {
+   "name": "Emil Göstasson",
+   "rating": "1"
+ },
+ {
+   "name": "Erik Gustavsson",
+   "rating": "2"
+ },
+ {
+   "name": "Erik Sibbesson",
+   "rating": "2"
+ },
+ {
+   "name": "Fanny Åkesson",
+   "rating": "3"
+ },
+ {
+   "name": "Filip Ancker-Book",
+   "rating": "3"
+ },
+ {
+   "name": "Henrik Henriksson",
+   "rating": "1"
+ },
+ {
+   "name": "Jan Štěpán",
+   "rating": "1"
+ },
+ {
+   "name": "Jarno Koskela",
+   "rating": "3"
+ },
+ {
+   "name": "Jesper Andersson",
+   "rating": "3"
+ },
+ {
+   "name": "Joakim Alexandersson",
+   "rating": "2"
+ },
+ {
+   "name": "Jocke Hultman",
+   "rating": "2"
+ },
+ {
+   "name": "Jocke Lindgren",
+   "rating": "2"
+ },
+ {
+   "name": "Johan Görnebrand",
+   "rating": "3"
+ },
+ {
+   "name": "Johan Rydberg",
+   "rating": "1"
+ },
+ {
+   "name": "Johan Seydlitz",
+   "rating": "3"
+ },
+ {
+   "name": "Jonas Albertsson",
+   "rating": "1"
+ },
+ {
+   "name": "Jonas Holmström",
+   "rating": "2"
+ },
+ {
+   "name": "Jonas Kieninger",
+   "rating": "3"
+ },
+ {
+   "name": "Jonatan Albertsson",
+   "rating": "1"
+ },
+ {
+   "name": "Juha Laurila",
+   "rating": "1"
+ },
+ {
+   "name": "Julius Albertsson",
+   "rating": "2"
+ },
+ {
+   "name": "Kristoffer Bergholtz",
+   "rating": "2"
+ },
+ {
+   "name": "Markus Uusivirta",
+   "rating": "3"
+ },
+ {
+   "name": "Martin Fredlund",
+   "rating": "1"
+ },
+ {
+   "name": "Mathias Olofsson",
+   "rating": "3"
+ },
+ {
+   "name": "Mattias Torikka",
+   "rating": "3"
+ },
+ {
+   "name": "Matts Byström",
+   "rating": "2"
+ },
+ {
+   "name": "Michael Torikka",
+   "rating": "2"
+ },
+ {
+   "name": "Mika Goman",
+   "rating": "2"
+ },
+ {
+   "name": "Mikael Dahlgren",
+   "rating": "1"
+ },
+ {
+   "name": "Morgan Evaldsson",
+   "rating": "2"
+ },
+ {
+   "name": "Niklas Lennartsson",
+   "rating": "2"
+ },
+ {
+   "name": "Oliver Söderberg",
+   "rating": "3"
+ },
+ {
+   "name": "Oskar Henmyr",
+   "rating": "2"
+ },
+ {
+   "name": "Patrik Karlsson",
+   "rating": "2"
+ },
+ {
+   "name": "Paul Winberg",
+   "rating": "3"
+ },
+ {
+   "name": "Per Görnebrand",
+   "rating": "3"
+ },
+ {
+   "name": "Peter Grönvall",
+   "rating": "3"
+ },
+ {
+   "name": "Rasmus Persson",
+   "rating": "3"
+ },
+ {
+   "name": "Rasmus Svensson",
+   "rating": "3"
+ },
+ {
+   "name": "Roger Jönsson",
+   "rating": "3"
+ },
+ {
+   "name": "Sebastian Bolin",
+   "rating": "3"
+ },
+ {
+   "name": "Sebastian Ramberg",
+   "rating": "2"
+ },
+ {
+   "name": "Simon Book",
+   "rating": "3"
+ },
+ {
+   "name": "Simon Laakkonen",
+   "rating": "3"
+ },
+ {
+   "name": "Tommy Kuduk",
+   "rating": "3"
+ },
+ {
+   "name": "Tony Skoog",
+   "rating": "3"
+ }
 ]
