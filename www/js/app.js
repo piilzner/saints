@@ -11,15 +11,15 @@ var app = angular.module('starter', ['ionic'])
   });
 })
 .config(function($stateProvider, $urlRouterProvider, $httpProvider, $ionicConfigProvider) {
-  
+
   $ionicConfigProvider.views.transition('fade-in');
-  
+
   $stateProvider
   .state('home', {
     url: '/',
     templateUrl: 'views/home.html',
     controller: 'homeCtrl',
-    resolve: { 
+    resolve: {
       reset: function(team){
         team.resetTeam();
       }
